@@ -10,4 +10,10 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 
 ## First setup
 
-**[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
+1. You need to have docker installed and running
+2. You can verify docker is up and running by typing the following in your terminal: 'docker -v' and 'docker-compose -v'
+3. Then run 'docker-compose up' from the project root directory
+4. If docker is working correctly, the backend should be running and able to connect to your local database
+5. You can test this by pointing your broser to http://localhost:3000/api/ping
+6. You can check that the frontend is connected to the backend by seeing the register user page at http://localhost:3001/register
+
